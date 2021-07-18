@@ -1,0 +1,23 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  image-rendering: auto;
+}
+.space {
+  height: 1cm;
+  width: fit-content;
+  background-image: cross-fade();
+}
+.font {
+  font-size: larger;
+  letter-spacing: 0px;
+  padding: inherit;
+}
+.text {
+  font-variant: small-caps;
+  font-size: larger;
+}
+.image {
+  width: 30%;
+  height: 10cm;
+}
